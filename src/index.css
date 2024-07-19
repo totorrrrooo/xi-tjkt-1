@@ -197,17 +197,17 @@ body {
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	text-shadow: #a4dcf893 2px 0 20px;
+	text-shadow: #a4dcf800 2px 0 20px;
 }
 
-#AngkaGradientPink {
+#nGradientPink {
 	-webkit-text-stroke: 1px #1ab8d43d; /* Menggunakan efek outline teks dengan warna hitam */
 	background: linear-gradient(to top right, #b6e3fa, #1ab8d4 80%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	text-shadow: #1aafd4 2px 0 20px;
+	text-shadow: #00000000 2px 0 20px;
 }
 
 .slick-slide {
