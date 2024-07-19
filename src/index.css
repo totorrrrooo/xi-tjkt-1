@@ -4,15 +4,15 @@
 @tailwind utilities;
 
 :root {
-	--primary-color: #575c84;
-	--secondary-color: #686e9d;
-	--tertiary-color: #e06bd5;
+	--primary-color: #577784;
+	--secondary-color: #688b9d;
+	--tertiary-color: #6bc3e0;
 	--quaternary-color: #18fff3;
 	--quinary-color: #ff775c;
 	--senary-color: #ff4359;
 	--septenary-color: #76ffb0;
-	--bg: #4b39c6;
-	--bg1: #e06bd5;
+	--bg: #3999c6;
+	--bg1: #6bb5e0;
 }
 
 html {
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-	background: #1e1e1e;
+	background: #103043;
 	overflow-x: hidden; /* Mencegah scroll horizontal */
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: black;
-	background: rgb(67, 66, 66);
+	background-color: rgb(0, 0, 0);
+	background: rgb(48, 48, 48);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(31.6px);
 	-webkit-backdrop-filter: blur(11.6px);
@@ -58,7 +58,7 @@ body {
 }
 
 ::-moz-scrollbar-track {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 
 ::-moz-scrollbar-thumb {
@@ -76,8 +76,8 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
-			rgba(75, 57, 198, 0.9052871148459384) 100%
+			rgba(230, 230, 230, 0) 0%,
+			rgba(34, 229, 255, 0) 100%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 50%;
-	background: linear-gradient(to top, rgba(30, 30, 30, 1) 20%, rgba(30, 30, 30, 0));
+	background: linear-gradient(to top, #103043 20%, rgba(30, 30, 30, 0));
 
 	z-index: -1;
 }
@@ -191,7 +191,7 @@ body {
 }
 
 #AngkaGradientBlue {
-	-webkit-text-stroke: 1px #14a6ef3f; /* Menggunakan efek outline teks dengan warna hitam */
+	-webkit-text-stroke: 1px #14a6ef59; /* Menggunakan efek outline teks dengan warna hitam */
 	background: linear-gradient(to bottom right, #96dcff, #14a6ef 55%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
@@ -201,13 +201,13 @@ body {
 }
 
 #AngkaGradientPink {
-	-webkit-text-stroke: 1px #d41a773d; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to top right, #fab6e7, #d41a77 80%);
+	-webkit-text-stroke: 1px #1ab8d43d; /* Menggunakan efek outline teks dengan warna hitam */
+	background: linear-gradient(to top right, #b6e3fa, #1ab8d4 80%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	text-shadow: #d41a77 2px 0 20px;
+	text-shadow: #1aafd4 2px 0 20px;
 }
 
 .slick-slide {
@@ -266,7 +266,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(292, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, hsl(196, 93%, 53%) 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -279,7 +279,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(292, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, hsla(197, 93%, 53%, 0.492) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -404,8 +404,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(218, 9, 229, 0.39) 5%,
-		rgba(218, 9, 229, 0.149) 55%,
+		rgba(9, 163, 229, 0.39) 5%,
+		rgba(9, 178, 229, 0.149) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }
